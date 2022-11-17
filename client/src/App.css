@@ -1,0 +1,116 @@
+/* .App { */
+  /* text-align: center; */
+  /* background-color: azure; */
+  /* margin-top: 8rem;
+  margin-left: 30rem;
+  margin-right: 30rem; */
+  /* padding: 10px; */
+  /* border: 1px solid black; */
+  /* border-radius: 15px; */
+  /* height: 100vh;
+  width:100vw */
+/* } */
+/* button{
+  background-color: rgb(101, 192, 245);
+  border: none;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+input{
+  background-color: aquamarine;
+  border: none;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+} */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#growth{
+  overflow-y: scroll;
+}
+.heading{
+  text-decoration:underline;
+  border:1px ;
+  margin:5rem 25rem 0;
+  padding:2rem;
+  background-color: #fbb361;
+  /* border-radius: 5px; */
+}
+.headingInside{
+  text-decoration:underline;
+  margin:5rem 25rem 2.5rem 25rem;
+  border:1px ;
+  padding:2rem;
+  background-color: #fbb361;
+}
+.userroomdata{
+  margin-bottom:10px;
+  /* text-decoration:underline; */
+  color:rgb(105, 97, 97);
+  /* border: 1px solid black; */
+  margin:-2.5rem 25rem 0 25rem;
+  padding:0.5rem;
+  background-color: #f2ca9c;
+  /* border-radius: 5px; */
+}
+.messagesdata{
+  /* border: 1px solid black; */
+  margin:-1.35rem 25rem 0 25rem;
+  padding:1rem;
+  background-color: antiquewhite;
+  /* border-radius: 5px; */
+}
+.logindata{
+  border: 1px ;
+  margin:0 25rem 0 25rem;
+  padding:1rem;
+  background-color: #9dd8e8;
+}
+button{
+  background-color: deepskyblue;
+  border: none;
+  height: 25px;
+  margin-top: 5px;
+  margin: 5px;
+}
+.imgdata{
+  height: 30px;
+  width: 30px;
+}
